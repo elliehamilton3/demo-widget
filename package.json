@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "nest export",
+    "postbuild": "next-on-netlify",
     "test": "echo no tests",
     "lint": "tsc && eslint . --ext .ts,.tsx",
     "lint:fix": "npm run lint -- --fix && prettier --write ./**/*.ts{,x}"
@@ -21,6 +21,7 @@
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
     "next": "^10.0.0",
+    "next-on-netlify": "^2.6.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "remark": "^13.0.0",

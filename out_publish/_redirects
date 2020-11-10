@@ -1,0 +1,8 @@
+# Next-on-Netlify Redirects
+/  /.netlify/functions/next_index  200!  Cookie=__prerender_bypass,__next_preview_data
+/_next/data/9VKoGoCNeFPr-MaIOzzmm/index.json  /.netlify/functions/next_index  200!  Cookie=__prerender_bypass,__next_preview_data
+/_next/data/9VKoGoCNeFPr-MaIOzzmm/posts/pre-rendering.json  /.netlify/functions/next_posts_id  200!  Cookie=__prerender_bypass,__next_preview_data
+/_next/data/9VKoGoCNeFPr-MaIOzzmm/posts/ssg-ssr.json  /.netlify/functions/next_posts_id  200!  Cookie=__prerender_bypass,__next_preview_data
+/posts/pre-rendering  /.netlify/functions/next_posts_id  200!  Cookie=__prerender_bypass,__next_preview_data
+/posts/ssg-ssr  /.netlify/functions/next_posts_id  200!  Cookie=__prerender_bypass,__next_preview_data
+/*  /:splat  200

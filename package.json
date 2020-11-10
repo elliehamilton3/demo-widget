@@ -5,7 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "echo no tests",
+    "lint": "tsc && eslint . --ext .ts,.tsx",
+    "lint:fix": "npm run lint -- --fix && prettier --write ./**/*.ts{,x}"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
+    }
   },
   "dependencies": {
     "date-fns": "^2.16.1",
@@ -19,6 +28,12 @@
   "devDependencies": {
     "@types/node": "^14.14.7",
     "@types/react": "^16.9.56",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "eslint": "^7.13.0",
+    "eslint-plugin-react": "^7.21.5",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.1",
     "typescript": "^4.0.5"
   }
 }

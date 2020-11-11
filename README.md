@@ -1,5 +1,7 @@
 # Demo/Skeleton UI Project
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f5b1bcf6-5638-46a0-94d4-3db9b3b9c14d/deploy-status)](https://app.netlify.com/sites/demo-skeleton-ui/deploys)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 

@@ -1,0 +1,44 @@
+.card {
+  border-top: 3px solid #141414;
+}
+
+.cardHeader {
+  border-bottom: 1px solid #d5e0e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0px;
+}
+
+.cardHeader .heading {
+  font-size: 32px;
+}
+
+.cardContent {
+  padding: 12px 0px;
+}
+
+.cardContent .heading {
+  font-size: 22px;
+}
+
+.cardAction {
+  border-bottom: 1px solid #d5e0e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 12px 0px;
+}
+
+.headingIcon {
+  height: 32px;
+}
+
+.heading {
+  font-weight: 300;
+  margin: 0px;
+}
+
+.body {
+  font-weight: 500;
+}

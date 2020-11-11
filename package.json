@@ -9,7 +9,7 @@
     "postbuild": "next-on-netlify",
     "test": "echo no tests",
     "lint": "tsc && eslint . --ext .ts,.tsx",
-    "lint:fix": "npm run lint -- --fix && prettier --write ./**/*.ts{,x}"
+    "lint:fix": "npm run lint -- --fix && prettier --write ./**/*.ts{,x} --write ./**/*.css"
   },
   "husky": {
     "hooks": {
@@ -18,6 +18,7 @@
     }
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
     "next": "^10.0.0",

@@ -12,7 +12,7 @@
 /.next/
 out_functions/
 out_publish/
-
+out/
 
 # production
 /build

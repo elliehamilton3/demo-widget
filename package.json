@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "npm run build && next export",
     "postbuild": "next-on-netlify",
     "test": "echo no tests",
     "lint": "tsc && eslint . --ext .ts,.tsx",
@@ -18,15 +19,10 @@
     }
   },
   "dependencies": {
-    "@material-ui/core": "^4.11.0",
-    "date-fns": "^2.16.1",
-    "gray-matter": "^4.0.2",
     "next": "^10.0.0",
     "next-on-netlify": "^2.6.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "remark": "^13.0.0",
-    "remark-html": "^13.0.1"
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.7",

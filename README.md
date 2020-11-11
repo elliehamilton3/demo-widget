@@ -1,6 +1,7 @@
-# Demo/Skeleton UI Project
+# Demo Widget Project
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f5b1bcf6-5638-46a0-94d4-3db9b3b9c14d/deploy-status)](https://app.netlify.com/sites/demo-skeleton-ui/deploys)
+<!-- TODO: Rename -->
+[]()
 
 ## Getting Started
 
@@ -37,8 +38,9 @@ No CI/CD pipeline for testing has been implemented yet and there is no process f
 
 ## Deployment
 
+<!-- TODO: Rename -->
 This repo deploys to [Netlify](https://www.netlify.com/) automatically on pushes to `main`.
-The hosted production version of this repo can be found at [https://demo-skeleton-ui.netlify.app/](https://demo-skeleton-ui.netlify.app/).
+The hosted production version of this repo can be found at []().
 
 ## Versioning
 

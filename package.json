@@ -9,7 +9,7 @@
     "postbuild": "next-on-netlify",
     "test": "echo no tests",
     "lint": "tsc && eslint . --ext .ts,.tsx",
-    "lint:fix": "npm run lint -- --fix && prettier --write ./**/*.ts{,x} --write ./**/*.css"
+    "lint:fix": "npm run lint -- --fix && prettier --write ./**/*.ts{,x} --write ./**/*.css  --write ./**/*.svg"
   },
   "husky": {
     "hooks": {

@@ -1,21 +1,4 @@
-import styles from "./widget.module.css";
-
-export interface IWidgetProps {
-  link: string;
-  title: string;
-  imageLink: string;
-}
-const Widget: React.FunctionComponent<IWidgetProps> = ({
-  link,
-  title,
-  imageLink,
-}: IWidgetProps) => {
-  return (
-    <div className={styles.card}>
-      <div className={styles.cardHeader}>
-        <h1 className={styles.heading}>Explore context</h1>
-        <div className={styles.headingIcon}>
-          <svg
+<svg
             xmlns="http://www.w3.org/2000/svg"
             height="32"
             viewBox="0 0 44 44"
@@ -29,40 +12,3 @@ const Widget: React.FunctionComponent<IWidgetProps> = ({
               <path d="m31.71 33.71-1.42-1.42-4.7 4.71 4.7 4.71 1.42-1.42-2.3-2.29h14.59v-2h-14.59z" />
             </g>
           </svg>
-        </div>
-      </div>
-      <div className={styles.cardContent}>
-        <h2 className={styles.heading}>{title}</h2>
-      </div>
-      <a href={link}>
-        <img style={{ maxWidth: "100%" }} src={imageLink}></img>
-      <div className={styles.cardAction}>
-
-          <p className={styles.body}>
-            Explore the latest strategic trends, research and analysis
-          </p>
-          <div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="14"
-            viewBox="0 0 28 14"
-            width="28"
-          >
-            <g
-              fill="none"
-              fillRule="evenodd"
-              stroke="#84919c"
-              strokeWidth="2"
-              transform="translate(1 1)"
-            >
-              <path d="m23 6h-22.5" strokeLinecap="square" />
-              <path d="m20 0 5 6-5 6" />
-            </g>
-          </svg>
-          </div>
-      </div>
-      </a>
-    </div>
-  );
-};
-export default Widget;
